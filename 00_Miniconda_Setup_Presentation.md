@@ -9,37 +9,37 @@ header: "**Quantum Environment Setup Guide**"
 footer: "Quantum Computing Introduction | Setting up Miniconda & Qiskit"
 ---
 
-# 🚀 Setting Up Your Quantum Environment
+# Setting Up Your Quantum Environment
 ## A Guide to Miniconda, Virtual Environments, and Jupyter
 ---
 
-## 🎯 Why Do We Need This?
+## Why Do We Need This?
 
 When working with Python, particularly in data science and quantum computing:
 - We use **many libraries** (like Qiskit, Numpy, Matplotlib).
 - Different projects require **different versions** of these libraries.
 - Installing everything globally can cause **version conflicts** and break your system.
 
-**The Solution:** 📦 **Virtual Environments**
+**The Solution:** **Virtual Environments**
 A virtual environment is an isolated workspace for a specific project. 
 
 ---
 
-## 🐍 What is Miniconda?
+## What is Miniconda?
 
 **Miniconda** is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages.
 
 **Why Miniconda instead of full Anaconda?**
-- 🍃 **Lightweight:** Takes up very little disk space.
-- ⚡ **Fast:** Installs quickly.
-- 🛠️ **Customizable:** You only install the packages you actually need.
+- **Lightweight:** Takes up very little disk space.
+- **Fast:** Installs quickly.
+- **Customizable:** You only install the packages you actually need.
 
 ---
 
-## 📥 Step 1: Downloading Miniconda
+## Step 1: Downloading Miniconda
 
 1. Go to the official Miniconda Download Page:
-   👉 **[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)**
+   **[https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)**
 2. Choose the correct installer for your Operating System:
    - **Windows:** Download the `.exe` installer (64-bit).
    - **macOS:** Download the `.pkg` or `.sh` installer (check if you have Intel or Apple Silicon/M1/M2).
@@ -47,9 +47,9 @@ A virtual environment is an isolated workspace for a specific project.
 
 ---
 
-## 🛠️ Step 2: Installation
+## Step 2: Installation
 
-### 🪟 Windows Setup
+### Windows Setup
 1. Double click the `.exe` file.
 2. Follow the prompt (Next > I Agree > Just Me).
 3. Choose the destination folder.
@@ -61,7 +61,7 @@ A virtual environment is an isolated workspace for a specific project.
 
 ---
 
-## 🧪 Step 3: Basics of Virtual Environments
+## Step 3: Basics of Virtual Environments
 
 Now that you have Miniconda, let's learn the basic commands. Open your **Anaconda Prompt** (or Terminal).
 
@@ -78,7 +78,7 @@ conda env list
 
 ---
 
-## 🏗️ Step 4: Creating Our Qiskit Environment
+## Step 4: Creating Our Qiskit Environment
 
 Let's create a dedicated environment for our Quantum Computing work. We will name it **`qiskit-env`** and use Python 3.10.
 
@@ -91,7 +91,7 @@ Congratulations! You have just created an isolated workspace.
 
 ---
 
-## 🔌 Step 5: Activating the Environment
+## Step 5: Activating the Environment
 
 To start using this environment, you must **activate** it. 
 
@@ -106,7 +106,7 @@ Notice how your prompt changes from `(base)` to `(qiskit-env)`. Everything we in
 
 ---
 
-## 💻 Step 6: Installing Jupyter and Qiskit
+## Step 6: Installing Jupyter and Qiskit
 
 Now that we are *inside* `qiskit-env`, let's install the tools we need for the notebook.
 
@@ -120,7 +120,7 @@ pip install jupyter qiskit qiskit-aer matplotlib pylatexenc
 
 ---
 
-## 🚀 Step 7: Launching Jupyter Notebook
+## Step 7: Launching Jupyter Notebook
 
 You are all set! Let's start coding.
 
@@ -131,4 +131,4 @@ You are all set! Let's start coding.
 jupyter notebook
 ```
 3. Your web browser will open automatically.
-4. Click on **`01_Qiskit_Introduction.ipynb`** and let's explore Quantum mechanics! 🎉
+4. Click on **`01_Qiskit_Introduction.ipynb`** and let's explore Quantum mechanics!

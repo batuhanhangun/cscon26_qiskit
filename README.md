@@ -1,4 +1,4 @@
-# 🚀 Quantum Computing & Qiskit Introduction
+# Quantum Computing & Qiskit Introduction
 
 Welcome to the **Quantum Computing Introduction** repository! This repository contains practical introductory examples of [Qiskit](https://qiskit.org/) and a guide to setting up your environment using **Miniconda**. 
 
@@ -6,7 +6,7 @@ Here, you will step into the fascinating world of quantum mechanics, qubits, sup
 
 ---
 
-## 🎯 What's in this Repository?
+## What's in this Repository?
 
 1. **`00_Miniconda_Setup_Presentation.md`**
    - A step-by-step presentation on how to install Miniconda.
@@ -20,7 +20,7 @@ Here, you will step into the fascinating world of quantum mechanics, qubits, sup
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 Follow these steps to get your environment ready for Quantum Computing!
 
@@ -56,7 +56,7 @@ This will open Jupyter in your browser. Click on **`01_Qiskit_Introduction.ipynb
 
 ---
 
-## 💡 About Qiskit
+## About Qiskit
 [Qiskit](https://qiskit.org/) is an open-source SDK for working with quantum computers at the level of pulses, circuits, and application modules. It accelerates the development of quantum applications by providing the complete set of tools needed for quantum computing research and education.
 
-Happy coding, and welcome to the quantum era! 🌌
+Happy coding, and welcome to the quantum era!
