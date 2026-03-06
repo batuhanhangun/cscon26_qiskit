@@ -1,0 +1,24 @@
+# Environment and IDE
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Python scripts (internal work)
+*.py
+
+# Temporary Office Files
+~$*.pptx
+~*.pptx
+*.tmp
+
+# MacOS
+.DS_Store
