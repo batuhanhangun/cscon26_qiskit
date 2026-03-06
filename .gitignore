@@ -15,6 +15,9 @@ venv.bak/
 # Python scripts (internal work)
 *.py
 
+# Presentations
+*.pptx
+
 # Temporary Office Files
 ~$*.pptx
 ~*.pptx
